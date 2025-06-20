@@ -16,6 +16,9 @@ Hands-on exercises are organized in the following structure:
 * **Exercise 1 – Singleton Pattern**
   Java implementation of the Singleton Design Pattern to ensure only one instance of a class exists with global access.
 
+* **Exercise 2 – Factory Method Pattern**  
+  Java implementation of the Factory Method Pattern to create different types of documents (Word, PDF, Excel) using dedicated factory classes.
+
 ---
 
 ## Week 2
