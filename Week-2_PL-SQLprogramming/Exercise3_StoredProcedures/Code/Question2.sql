@@ -11,7 +11,6 @@ BEGIN
 END;
 /
 
--- Give 10% bonus to Sales department
 EXEC UpdateEmployeeBonus('Sales', 10);
 SELECT * FROM Employees;
 
