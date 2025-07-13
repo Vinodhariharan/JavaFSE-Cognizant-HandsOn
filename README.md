@@ -86,4 +86,28 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
+## Week 4
+
+### Skill: Spring REST using Spring Boot 3
+
+* **Exercise 1 – Create a Spring Web Project using Maven**  
+  Basic Spring Boot setup using Maven in the `spring-rest-handson` module.
+
+* **Exercise 2 – Spring Core – Load Country from Spring Configuration XML**  
+  Load configuration using XML in a Spring project to wire up country-related beans.
+
+* **Exercise 3 – Hello World RESTful Web Service**  
+  Build your first REST endpoint using Spring Boot in the `spring-rest-handson` project.
+
+* **Exercise 4 – REST - Country Web Service**  
+  Create a REST API that returns country data using Spring Boot REST controllers.
+
+* **Exercise 5 – REST - Get Country Based on Country Code**  
+  Extend your REST controller to fetch a country by its unique code.
+
+* **Exercise 6 – Create Authentication Service that Returns JWT**  
+  Implement user authentication and JWT token generation in the `JWT-handson` project.
+
+---
+
 More exercises will be added weekly as the program progresses.
