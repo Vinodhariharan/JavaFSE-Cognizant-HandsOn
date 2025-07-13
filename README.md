@@ -63,4 +63,27 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
+## Week 3
+
+### Skill: Spring Core and Maven
+
+- **Exercise 1 – Configuring a Basic Spring Application**  
+  Setup a simple Spring application using XML-based configuration and understand the fundamentals of Spring container behavior.
+
+- **Exercise 2 – Implementing Dependency Injection**  
+  Practice constructor-based and setter-based Dependency Injection (DI) using Spring's ApplicationContext.
+
+- **Exercise 3 – Creating and Configuring a Maven Project**  
+  Create a Maven project from scratch, configure dependencies, and build a basic Spring module with Maven.
+
+### Skill: Spring Data JPA with Spring Boot and Hibernate
+
+- **Exercise 1 – Spring Data JPA: Quick Example**  
+  Build a minimal Spring Boot application using Spring Data JPA to perform basic CRUD operations on a MySQL database.
+
+- **Exercise 4 – JPA vs Hibernate vs Spring Data JPA**  
+  Compare and understand the differences between JPA, Hibernate, and Spring Data JPA, and when to use each in a real-world application.
+
+---
+
 More exercises will be added weekly as the program progresses.
