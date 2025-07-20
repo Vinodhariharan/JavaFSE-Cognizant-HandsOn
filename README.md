@@ -110,4 +110,13 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
+## Week 5
+
+### Skill: Microservices with Spring Boot 3 and Spring Cloud
+
+* **Exercise 1 – Creating Microservices for account and loan**
+  Develop two independent microservices, `account` and `loan`, using Spring Boot.
+
+---
+
 More exercises will be added weekly as the program progresses.
