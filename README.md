@@ -119,4 +119,25 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
+## Week 6
+
+### Skill: ReactJS Development
+
+- **Exercise 1 – MyFirstApp**  
+  Setup a basic React app and render JSX components.
+
+- **Exercise 2 – StudentApp**  
+  Create multiple components (`Home`, `About`, `Contact`) and render them via `App.js`.
+
+- **Exercise 3 – ScoreCalculatorApp**  
+  Build a functional component that accepts props, calculates score, and applies CSS styling.
+
+- **Exercise 4 – BlogApp**  
+  Use class components, `componentDidMount`, and `componentDidCatch` to fetch and render post data.
+
+- **Exercise 5 – CohortDashboard**  
+  Apply styles using CSS Modules and inline styles, with conditional rendering based on cohort status.
+
+---
+
 More exercises will be added weekly as the program progresses.
