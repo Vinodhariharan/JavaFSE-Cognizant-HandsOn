@@ -140,4 +140,25 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
+## Week 7
+
+### Skill: ReactJS – ES6, JSX, Event Handling, Conditional & List Rendering
+
+- **Exercise 1 – CricketApp**  
+  Use ES6 features such as `map()`, arrow functions, destructuring, and conditional rendering to list cricket players and filter based on score.
+
+- **Exercise 2 – OfficespacerentalApp**  
+  Build a JSX-based React app with inline styling and conditionally styled elements based on rent value.
+
+- **Exercise 3 – EventexamplesApp**  
+  Implement React event handling including synthetic events, button click logic, and a simple currency converter component.
+
+- **Exercise 4 – TicketbookingApp**  
+  Demonstrate conditional rendering using login/logout state to toggle between guest and user pages in a ticket booking flow.
+
+- **Exercise 5 – BloggerApp**  
+  Practice all forms of conditional rendering and list rendering using components like `BookDetails`, `BlogDetails`, and `CourseDetails` with keys and `map()`.
+
+---
+
 More exercises will be added weekly as the program progresses.
