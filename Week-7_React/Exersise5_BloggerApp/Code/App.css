@@ -1,0 +1,36 @@
+.App {
+  margin-top: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.details-column {
+  width: 30%;
+  padding: 0 15px;
+}
+
+.details-column h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.details-column h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.details-column h4,
+.details-column p {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #333;
+}
+
+.vertical-divider {
+  border-left: 5px solid green;
+}
