@@ -1,0 +1,45 @@
+# Branching Commands
+
+# 1. Create a new branch
+git branch GitNewBranch
+
+# 2. List all local and remote branches
+git branch
+
+# 3. Switch to the newly created branch
+git checkout GitNewBranch
+
+# 4. Add a new file in the branch
+echo "Some content for branch file" > branch_file.txt
+
+# 5. Add the file to staging area
+git add branch_file.txt
+
+# 6. Commit the changes
+git commit -m "Added branch_file.txt in GitNewBranch"
+
+# 7. Check branch status
+git status
+
+# Merging Commands
+
+# 1. Switch to the master branch
+git checkout master
+
+# 2. List differences between master and GitNewBranch
+git diff master GitNewBranch
+
+# 3. (Optional) View visual differences using P4Merge
+git mergetool
+
+# 4. Merge the branch into master
+git merge GitNewBranch
+
+# 5. View commit history after merge
+git log --oneline --graph --decorate
+
+# 6. Delete the branch after merging
+git branch -d GitNewBranch
+
+# 7. Check status
+git status

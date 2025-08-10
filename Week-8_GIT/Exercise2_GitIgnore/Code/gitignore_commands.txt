@@ -1,0 +1,16 @@
+cd GitDemo 
+
+echo "This is a log file" > debug.log
+mkdir logs
+echo "Some log data" > logs/app.log
+
+notepad++ .gitignore
+
+*.log
+logs/
+
+git status
+git add .gitignore
+git commit -m "Added .gitignore to ignore log files and logs folder"
+git push origin master  # Replace master with main if needed
+git status

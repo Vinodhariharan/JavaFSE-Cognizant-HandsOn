@@ -1,0 +1,26 @@
+# Step 1 – Setup Git Configuration
+git --version
+git config --global user.name "Vinodhariharan"
+git config --global user.email "vinodhari@gmail.com"
+git config --list
+
+# Step 2 – Integrate Notepad++ as Default Git Editor
+notepad++
+# (If above doesn’t work, add Notepad++ folder path to Environment Variables, then reopen Git Bash)
+alias npp='notepad++'
+git config --global core.editor "notepad++ -multiInst -nosession"
+git config --global -e
+
+# Step 3 – Add a File to Source Code Repository
+mkdir GitDemo
+cd GitDemo
+git init
+echo "Welcome to Git Demo" > welcome.txt
+ls -al
+cat welcome.txt
+git status
+git add welcome.txt
+git commit
+git status
+git pull origin master
+git push origin master

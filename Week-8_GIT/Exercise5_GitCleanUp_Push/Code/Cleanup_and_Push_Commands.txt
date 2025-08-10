@@ -1,0 +1,15 @@
+# 1. Verify if master is in clean state
+git checkout master
+git status
+
+# 2. List out all the available branches
+git branch -a
+
+# 3. Pull the remote git repository to the master
+git pull origin master
+
+# 4. Push the changes from Git-T03-HOL_002 branch to the remote repository
+git checkout Git-T03-HOL_002
+git push origin Git-T03-HOL_002
+
+# 5. (No command — just verify on GitHub web UI)

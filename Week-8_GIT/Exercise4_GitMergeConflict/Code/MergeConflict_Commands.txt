@@ -1,0 +1,47 @@
+# Git Conflict Resolution Lab - Master & GitWork Branches
+
+# 1. Verify master is clean
+git status
+
+# 2. Create and switch to branch GitWork
+git checkout -b GitWork
+
+# 3. Add hello.xml in GitWork
+echo "<message>Hello from branch</message>" > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml in GitWork"
+
+# 4. Switch to master
+git checkout master
+
+# 5. Add hello.xml in master with different content
+echo "<message>Hello from master</message>" > hello.xml
+git add hello.xml
+git commit -m "Add hello.xml in master"
+
+# 6. View branch differences
+git diff master GitWork
+
+# 7. Merge GitWork into master (should cause conflict)
+git merge GitWork
+
+# 8. Use P4Merge for conflict resolution
+git mergetool
+
+# 9. After resolving conflict, add the file
+git add hello.xml
+
+# 10. Commit merge resolution
+git commit -m "Resolved merge conflict between master and GitWork"
+
+# 11. Check status
+git status
+
+# 12. View log graph
+git log --oneline --graph --decorate --all
+
+# 13. Delete GitWork branch after merge
+git branch -d GitWork
+
+# 14. Final log
+git log --oneline --graph --decorate
