@@ -161,4 +161,32 @@ Hands-on exercises are organized in the following structure:
 
 ---
 
-More exercises will be added weekly as the program progresses.
+## Week 8  
+
+### Skill: Git & GitHub  
+
+- **Exercise 1 – GitCommands**  
+  Practice basic Git commands including initializing a repository, adding files, committing changes, and viewing history.  
+
+- **Exercise 2 – GitIgnore**  
+  Create a `.gitignore` file to exclude specific files and folders from version control.  
+
+- **Exercise 3 – GitBranchAndMerge**  
+  Create and switch branches, make changes, and merge them into the master branch.  
+
+- **Exercise 4 – GitMergeConflict**  
+  Simulate and resolve a merge conflict using Git tools.  
+
+- **Exercise 5 – GitCleanUp_Push**  
+  Clean up local branches and push updates to the remote repository.  
+
+---
+
+## Conclusion
+
+The **Java Full Stack Engineer (JavaFSE)** DeepSkill Program under Cognizant Digital Nurture 4.0 was a valuable learning experience that bridged the gap between theory and practice.  
+Through a well-structured, hands-on approach, it covered everything from core Java concepts and backend development with Spring Boot to modern frontend development using ReactJS, along with essential tools like Git and GitHub.  
+
+**By the end of the program, I have gained the confidence and skills to design, develop, and deploy full-stack applications using industry-standard technologies and best practices.**  
+
+**_Completed on:_** 10 August 2025  
